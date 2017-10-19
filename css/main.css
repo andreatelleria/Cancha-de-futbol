@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box;
+}
+
+.body {
+  color: yellow;
+  width: 630px;
+  height: 315px;
+  padding: 10px #e9e5e9;
+  background-color: red;
+  border: 10px solid;
+}
+
+/*
+#e9e5e9 white
+#8bb27b green
+*/
