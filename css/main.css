@@ -1,15 +1,15 @@
-/**/
+/*Utilizamos el selector universal para establecer que el tamaño de todas las cajas se defina según su width*/
 * {
   box-sizing: border-box;
 }
-/**/
+/*Utilizamos el selector de clase .borde-exterior para dibujar el fondo principal de nuestra cancha. Le damos position relative y establecemos su ancho, altura y color de fondo*/
 .borde-exterior {
   position: relative;
   width: 630px;
   height: 315px;
   background-color: #8bb27b;
 }
-/**/
+/*Utilizamos el selector de clase .cancha para dibujar la cancha y ubicarla al centro. Le damos position absolute y establecemos su ancho, altura, color de fondo y color de borde,*/
 .cancha {
   position: absolute;
   top: 15px;
@@ -19,7 +19,7 @@
   background-color: #8bb27b;
   border: 4px solid #f9f8f6;
 }
-/**/
+/*Utilizamos el selector de clase .arc1 para dibujar el primer arco y ubicarlo a la izquierda. Le damos position absolute y establecemos su ancho, altura, color de fondo y el color de 3 de sus bordes*/
 .arc1 {
   position: absolute;
   top: 80px;
@@ -31,7 +31,7 @@
   border-bottom: 4px solid #f9f8f6;
   border-right: 4px solid #f9f8f6;
 }
-/**/
+/*Utilizamos el selector de clase .arc2 para dibujar el segundo arco y ubicarlo a la derecha. Le damos position absolute y establecemos su ancho, altura, color de fondo y el color de 3 de sus bordes*/
 .arc2 {
   position: absolute;
   top: 80px;
@@ -43,7 +43,7 @@
   border-bottom: 4px solid #f9f8f6;
   border-left: 4px solid #f9f8f6;
 }
-/**/
+/*Utilizamos el selector de clase .circle para dibujar un círculo y ubicarlo al centro. Le damos position absolute y establecemos su ancho, altura, radio del borde, color de fondo y color del borde*/
 .circle {
   position: absolute;
   top: 80px;
@@ -54,7 +54,7 @@
   background-color: #8bb27b;
   border: 4px solid #f9f8f6;
 }
-/**/
+/*Utilizamos el selector de clase .ball1 para dibujar el primer balón y ubicarlo a la izquierda. Le damos position absolute y establecemos su ancho, altura, radio del borde, color de fondo y color del borde*/
 .ball1 {
   position: absolute;
   top: 83px;
@@ -65,7 +65,7 @@
   background-color: #eceae7;
   border: 4px solid #eceae7;
 }
-/**/
+/*Utilizamos el selector de clase .ball2 para dibujar el segundo balón y ubicarlo al centro. Le damos position absolute y establecemos su ancho, altura, radio del borde, color de fondo y color del borde*/
 .ball2 {
   position: absolute;
   top: 38px;
@@ -76,7 +76,7 @@
   background-color: #eceae7;
   border: 4px solid #eceae7;
 }
-/**/
+/*Utilizamos el selector de clase .ball3 para dibujar el tercer balón y ubicarlo a la derecha. Le damos position absolute y establecemos su ancho, altura, radio del borde, color de fondo y color del borde*/
 .ball3 {
   position: absolute;
   bottom: 95px;
